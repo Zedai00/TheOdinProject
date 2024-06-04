@@ -1,0 +1,9 @@
+[submodule "Foundations/LandingPage"]
+	path = Foundations/LandingPage
+	url = git@github.com:Zedai00/LandingPage.git
+[submodule "Foundations/css-exercises"]
+	path = Foundations/css-exercises
+	url = git@github.com:Zedai00/css-exercises.git
+[submodule "Foundations/OdinRecipes"]
+	path = Foundations/OdinRecipes
+	url = git@github.com:Zedai00/OdinRecipes.git
