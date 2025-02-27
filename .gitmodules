@@ -7,3 +7,21 @@
 [submodule "Foundations/OdinRecipes"]
 	path = Foundations/OdinRecipes
 	url = git@github.com:Zedai00/OdinRecipes.git
+[submodule "Foundations/ZCalc"]
+	path = Foundations/ZCalc
+	url = git@github.com:Zedai00/ZCalc
+[submodule "Foundations/EtchASketch"]
+	path = Foundations/EtchASketch
+	url = git@github.com:Zedai00/EtchASketch
+[submodule "Foundations/JavaScript30"]
+	path = Foundations/JavaScript30
+	url = git@github.com:Zedai00/JavaScript30/
+[submodule "Foundations/javascript-exercises"]
+	path = Foundations/javascript-exercises
+	url = git@github.com:Zedai00/javascript-exercises/
+[submodule "Foundations/RockPaperScissors"]
+	path = Foundations/RockPaperScissors
+	url = git@github.com:Zedai00/RockPaperScissors/
+[submodule "NodeJs/Forms/FormTemplate"]
+	path = NodeJs/Forms/FormTemplate
+	url = git@github.com:Zedai00/FormTemplate/
