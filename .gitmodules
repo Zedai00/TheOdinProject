@@ -22,3 +22,9 @@
 [submodule "NodeJs/Forms/FormTemplate"]
 	path = NodeJs/Forms/FormTemplate
 	url = git@github.com:Zedai00/FormTemplate/
+[submodule "NodeJs/Library"]
+	path = NodeJs/Library
+	url = git@github.com:Zedai00/Library/
+[submodule "NodeJs/AdminDashboard"]
+	path = NodeJs/AdminDashboard
+	url = git@github.com:Zedai00/AdminDashboard/
