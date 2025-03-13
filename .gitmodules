@@ -28,3 +28,12 @@
 [submodule "NodeJs/AdminDashboard"]
 	path = NodeJs/AdminDashboard
 	url = git@github.com:Zedai00/AdminDashboard/
+[submodule "NodeJs/Intermediate-HTML-CSS/AdminDashboard"]
+	path = NodeJs/Intermediate-HTML-CSS/AdminDashboard
+	url = git@github.com:Zedai00/Intermediate-HTML-CSS/AdminDashboard
+[submodule "NodeJs/Intermediate-HTML-CSS/Library"]
+	path = NodeJs/Intermediate-HTML-CSS/Library
+	url = git@github.com:Zedai00/Intermediate-HTML-CSS/Library
+[submodule "NodeJs/Intermediate-HTML-CSS/Forms/FormTemplate"]
+	path = NodeJs/Intermediate-HTML-CSS/Forms/FormTemplate
+	url = git@github.com:Zedai00/Intermediate-HTML-CSS/Forms/FormTemplate
