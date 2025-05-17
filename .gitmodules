@@ -37,3 +37,12 @@
 [submodule "NodeJs/Intermediate-HTML-CSS/Forms/FormTemplate"]
 	path = NodeJs/Intermediate-HTML-CSS/Forms/FormTemplate
 	url = git@github.com:Zedai00/Intermediate-HTML-CSS/Forms/FormTemplate
+[submodule "NodeJs/JavaScript/Library"]
+	path = NodeJs/JavaScript/Library
+	url = https://github.com/Zedai00/Library
+[submodule "NodeJs/JavaScript/RestaurantPage"]
+	path = NodeJs/JavaScript/RestaurantPage
+	url = https://github.com/Zedai00/RestaurantPage
+[submodule "NodeJs/JavaScript/Tic-Tac-Toe-JS"]
+	path = NodeJs/JavaScript/Tic-Tac-Toe-JS
+	url = https://github.com/Zedai00/Tic-Tac-Toe-JS
