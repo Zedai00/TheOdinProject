@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input id="search" name="search" type="text" />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <img src="#" style="display: none" />
+    <div class="error"></div>
+    <script>
+      const img = document.querySelector("img");
+      const error = document.querySelector(".error");
+      const search = document.querySelector("#search");
+      const submit = document.querySelector("#submit");
+
+      async function getImage(q) {
+        const response = await fetch(
+          `https://api.giphy.com/v1/gifs/translate?api_key=Eg1UOYqFpgdKVUttZYGyCgAqJic6cLUU&s=${q}`,
+          { mode: "cors" },
+        );
+        const imgData = await response.json();
+        if (imgData.data.images) {
+          img.src = imgData.data.images.original.url;
+          img.style.display = "block";
+        } else {
+          error.textcontent = "not found!!!";
+          img.style.display = "none";
+        }
+      }
+
+      submit.addEventListener("click", (e) => {
+        e.preventDefault();
+        error.innerHTML = "";
+        let q = search.value;
+        if (q) {
+          getImage(q);
+          // fetch(
+          //   `https://api.giphy.com/v1/gifs/translate?api_key=eg1uoyqfpgdkvuttzygycgaqjic6cluu&s=${q}`,
+          //   { mode: "cors" },
+          // )
+          //   .then((response) => {
+          //     return response.json();
+          //   })
+          //   .then((response) => {
+          //     if (response.data.images) {
+          //       img.src = response.data.images.original.url;
+          //       img.style.display = "block";
+          //     } else {
+          //       error.textcontent = "not found!!!";
+          //       img.style.display = "none";
+          //     }
+          //   })
+          //   .catch((err) => {
+          //     error.textcontent = `error: ${err}`;
+          //   });
+        }
+      });
+    </script>
+  </body>
+</html>

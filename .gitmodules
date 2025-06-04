@@ -46,3 +46,24 @@
 [submodule "NodeJs/JavaScript/Tic-Tac-Toe-JS"]
 	path = NodeJs/JavaScript/Tic-Tac-Toe-JS
 	url = https://github.com/Zedai00/Tic-Tac-Toe-JS
+[submodule "Intermediate-HTML-CSS/AdminDashboard"]
+	path = Intermediate-HTML-CSS/AdminDashboard
+	url = https://github.com/zedai00/AdminDashboard
+[submodule "Intermediate-HTML-CSS/Forms/FormTemplate"]
+	path = Intermediate-HTML-CSS/Forms/FormTemplate
+	url = https://github.com/zedai00/SignUpForm
+[submodule "JavaScript/DyUI/DropdownProject/Dropdown"]
+	path = JavaScript/DyUI/DropdownProject/Dropdown
+	url = https://github.com/Zedai00/DropdownZ
+[submodule "JavaScript/Library"]
+	path = JavaScript/Library
+	url = https://github.com/Zedai00/Library
+[submodule "JavaScript/RestaurantPage"]
+	path = JavaScript/RestaurantPage
+	url = https://github.com/zedai00/RestaurantPage
+[submodule "JavaScript/Tic-Tac-Toe-JS"]
+	path = JavaScript/Tic-Tac-Toe-JS
+	url = https://github.com/Zedai00/Tic-Tac-Toe-JS
+[submodule "JavaScript/TodoApp"]
+	path = JavaScript/TodoApp
+	url = https://github.com/Zedai00/TodoApp
